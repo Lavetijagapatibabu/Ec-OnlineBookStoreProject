@@ -24,6 +24,7 @@ public class EcOnlineBookStoreApplication {
 		SpringApplication.run(EcOnlineBookStoreApplication.class, args);
 	}
 
+	
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
