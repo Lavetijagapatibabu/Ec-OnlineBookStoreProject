@@ -1,1 +1,1 @@
-EC-ONLINEBOOKSTOREPROJECT
+EC-OnlineBookStoreProject
