@@ -19,9 +19,9 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.book.controller.UserRegisterController;   // ✅ Add your controller here
+import com.book.dto.ResponseMessage;
+import com.book.dto.UserRequestDto;
 import com.book.entity.UserRegister;
-import com.book.model.ResponseMessage;
-import com.book.model.UserRequestDto;
 import com.book.service.IUserRegisterService;
 import com.book.utility.Constraints;
 import com.fasterxml.jackson.core.JsonProcessingException;

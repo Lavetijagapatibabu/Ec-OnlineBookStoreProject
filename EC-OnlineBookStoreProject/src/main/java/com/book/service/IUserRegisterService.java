@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import com.book.dto.UserRequestDto;
 import com.book.entity.UserRegister;
-import com.book.model.UserRequestDto;
 
 public interface IUserRegisterService {
 

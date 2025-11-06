@@ -2,8 +2,8 @@ package com.book.service;
 
 import java.util.List;
 
+import com.book.dto.BookModuleDto;
 import com.book.entity.BookModule;
-import com.book.model.BookModuleDto;
 
 public interface IBookModuleService {
 

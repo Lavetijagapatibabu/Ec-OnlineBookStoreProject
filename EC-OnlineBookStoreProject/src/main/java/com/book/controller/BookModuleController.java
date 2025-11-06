@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.book.dto.BookModuleDto;
+import com.book.dto.ResponseMessage;
 import com.book.entity.BookModule;
-import com.book.model.BookModuleDto;
-import com.book.model.ResponseMessage;
 import com.book.service.IBookModuleService;
 import com.book.utility.Constraints;
 

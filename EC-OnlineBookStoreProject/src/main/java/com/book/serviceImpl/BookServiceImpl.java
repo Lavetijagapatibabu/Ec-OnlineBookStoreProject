@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import com.book.dto.BookModuleDto;
 import com.book.entity.BookModule;
 import com.book.exception.BookIdNotFoundException;
-import com.book.model.BookModuleDto;
 import com.book.repository.BookModuleRepository;
 import com.book.service.IBookModuleService;
 

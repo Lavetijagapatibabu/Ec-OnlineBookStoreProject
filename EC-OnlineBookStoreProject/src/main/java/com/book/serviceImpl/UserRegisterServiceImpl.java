@@ -12,10 +12,10 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.book.dto.UserRequestDto;
 import com.book.entity.FilesEntity;
 import com.book.entity.UserRegister;
 import com.book.exception.UserIdNotFoundException;
-import com.book.model.UserRequestDto;
 import com.book.mongoEntity.UserRegisterMongo;
 import com.book.mongoRepository.UserRegisterMongoRepo;
 import com.book.repository.FilesEntityRepository;

@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.book.model.CustomerRequestDto;
+import com.book.dto.CustomerRequestDto;
 
 public interface ICustomerService {
 

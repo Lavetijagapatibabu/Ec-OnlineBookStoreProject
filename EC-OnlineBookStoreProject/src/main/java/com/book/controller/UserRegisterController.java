@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.book.dto.ResponseMessage;
+import com.book.dto.UserRequestDto;
 import com.book.entity.UserRegister;
-import com.book.model.ResponseMessage;
-import com.book.model.UserRequestDto;
 import com.book.service.IUserRegisterService;
 import com.book.utility.Constraints;
 import com.fasterxml.jackson.databind.ObjectMapper;

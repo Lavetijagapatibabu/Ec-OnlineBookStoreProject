@@ -13,9 +13,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import com.book.dto.CustomerRequestDto;
 import com.book.entity.Customer;
 import com.book.exception.CustomerIdNotFoundException;
-import com.book.model.CustomerRequestDto;
 import com.book.repository.CustomerRepository;
 import com.book.service.ICustomerService;
 

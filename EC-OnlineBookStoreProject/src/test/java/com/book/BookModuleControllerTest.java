@@ -14,8 +14,8 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.book.controller.BookModuleController;
+import com.book.dto.BookModuleDto;
 import com.book.entity.BookModule;
-import com.book.model.BookModuleDto;
 import com.book.service.IBookModuleService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
